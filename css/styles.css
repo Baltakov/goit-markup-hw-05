@@ -702,11 +702,11 @@ footer .logotype-blue {
   margin-bottom: 8px;
 }
 .review-form-field-desc {
+  display: block;
   font-size: 12px;
-  /* font-style: normal; */
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.48px;
+  letter-spacing: 0.04em; /* 0.48px; */
   margin-bottom: 4px;
   color: #8e8f99;
 }

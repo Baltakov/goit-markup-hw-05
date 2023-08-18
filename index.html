@@ -613,6 +613,7 @@
         </div>
       </div>
     </footer>
+
     <!-- ========== modal   ========== -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -626,12 +627,13 @@
         </p>
         <form class="review-form">
           <div class="review-form-field">
-            <label class="review-form-field-desc">Name</label>
-            <span class="review-worm-input-wrapper">
+            <label class="review-form-field-desc" for="user-name">Name</label>
+            <div class="review-worm-input-wrapper">
               <input
                 class="review-form-input"
                 type="text"
                 name="user_name"
+                id="user-name"
                 pattern="['A-Za-zА-Яа-яІіЇїЄєҐґ]+"
                 title="Olexa"
                 required
@@ -639,11 +641,11 @@
               <svg class="review-form-input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
-            </span>
+            </div>
           </div>
           <div class="review-form-field">
             <label class="review-form-field-desc">Phone</label>
-            <span class="review-worm-input-wrapper">
+            <div class="review-worm-input-wrapper">
               <input
                 class="review-form-input"
                 type="tel"
@@ -655,11 +657,11 @@
               <svg class="review-form-input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-            </span>
+            </div>
           </div>
           <div class="review-form-field">
             <label class="review-form-field-desc">Email</label>
-            <span class="review-worm-input-wrapper">
+            <div class="review-worm-input-wrapper">
               <input
                 class="review-form-input"
                 type="email"
@@ -669,7 +671,7 @@
               <svg class="review-form-input-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-            </span>
+            </div>
           </div>
           <div class="review-form-field">
             <label class="review-form-field-desc">Comment</label>
