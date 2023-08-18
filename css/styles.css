@@ -454,8 +454,8 @@ footer .logotype-blue {
   border-radius: 4px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.64;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   outline: none;
   color: #fff;
   background-color: transparent;
@@ -467,7 +467,8 @@ footer .logotype-blue {
   color: #fff;
 }
 .footer-subscribe-button {
-  font-family: Roboto;
+  min-width: 165px;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
