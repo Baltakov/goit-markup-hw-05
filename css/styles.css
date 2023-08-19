@@ -699,7 +699,7 @@ footer .logotype-blue {
 }
 .review-form-field {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-field-desc {
   display: block;
@@ -819,7 +819,7 @@ footer .logotype-blue {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
 }
-.modal-check-box:checked + .review-form-checkbox-label .modal-check-box {
+.review-form-checkbox:checked + .modal-check-box {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
