@@ -727,8 +727,8 @@ footer .logotype-blue {
   border-color: var(--secondary-color);
 }
 .review-worm-input-wrapper {
-  margin-bottom: 8px;
-  display: block;
+  /* margin-bottom: 8px; */
+  /* display: block; */
   position: relative;
 }
 .review-form-input-icon {
