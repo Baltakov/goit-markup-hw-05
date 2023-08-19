@@ -727,6 +727,7 @@ footer .logotype-blue {
   border-color: var(--secondary-color);
 }
 .review-worm-input-wrapper {
+  margin-bottom: 8px;
   display: block;
   position: relative;
 }
@@ -818,7 +819,7 @@ footer .logotype-blue {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
 }
-.modal-check-box:checked + .review-form-own-checkbox {
+.modal-check-box:checked + .review-form-checkbox-label .modal-check-box {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
