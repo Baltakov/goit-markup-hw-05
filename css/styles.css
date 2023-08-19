@@ -819,7 +819,7 @@ footer .logotype-blue {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
 }
-.review-form-checkbox:checked + .modal-check-box {
+.review-form-checkbox:checked + .review-form-checkbox-label .modal-check-box {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
