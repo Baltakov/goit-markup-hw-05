@@ -819,8 +819,9 @@ footer .logotype-blue {
   margin-right: 8px;
 }
 .review-form-checkbox:checked + .review-form-own-checkbox {
-  fill: #fff;
-  background-color: var(--secondary-color);
+  fill: #f4f4fd;
+  background-color: #404bbf;
+  border: none;
 }
 .review-form-checkbox:focus + .review-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
