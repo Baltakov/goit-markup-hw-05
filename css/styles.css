@@ -699,6 +699,9 @@ footer .logotype-blue {
 }
 .review-form-field {
   display: block;
+  margin-bottom: 8px;
+}
+.add-textarea {
   margin-bottom: 16px;
 }
 .review-form-field-desc {
@@ -812,12 +815,12 @@ footer .logotype-blue {
   color: var(--secondary-color);
 }
 .review-form-own-checkbox {
-  fill: transparent;
+  /* fill: transparent;
   cursor: pointer;
   padding: 3px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-right: 8px;
+  margin-right: 8px; */
 }
 .review-form-checkbox:checked + .review-form-checkbox-label > .modal-check-box {
   fill: #f4f4fd;
