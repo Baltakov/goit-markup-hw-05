@@ -432,7 +432,7 @@ footer .logotype-blue {
   margin-bottom: 16px;
 }
 .footer-subscribe-wrapper {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .footer-subscribe-text {
   font-size: 16px;
@@ -705,12 +705,12 @@ footer .logotype-blue {
   margin-bottom: 16px;
 }
 .review-form-field-desc {
-  /* display: block; */
+  display: block;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em; /* 0.48px; */
-  /* margin-bottom: 4px; */
+  margin-bottom: 4px;
   color: #8e8f99;
 }
 .add-name {
@@ -754,17 +754,17 @@ footer .logotype-blue {
 .review-form-massage {
   width: 100%;
   height: 120px;
+  border-radius: 4px;
+  padding: 8px 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-  background-color: transparent;
-  outline: transparent;
   resize: none;
-  border-radius: 4px;
-  padding: 8px 16px;
+  outline: transparent;
+  background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color var(--transition-dur-adn-func);
+  color: rgba(46, 47, 66, 1);
 }
 .review-form-massage:focus {
   outline-color: transparent;
@@ -790,7 +790,7 @@ footer .logotype-blue {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.48px;
   color: #8e8f99;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .review-form-checkbox {
   position: absolute;
